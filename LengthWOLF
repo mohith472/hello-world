@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class LengthWOLF
+{
+// finding the length of the String without library functions
+
+static int i, res;
+static int length()
+{
+Scanner sc = new Scanner(System.in);
+String s = sc.nextLine();
+for(i=0;i>=0;i++)
+{
+  s.charAt(i);
+}
+return i;
+}
+
+public static void main(String[] args)
+{
+  System.out.println("Given string length is : ");
+  res=LengthWOLF.length();
+  System.out.print(res);
+}
+}
